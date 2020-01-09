@@ -1,17 +1,18 @@
-# sortable-lists-with-sortablejs
-SortableJS allows your users to reorder items in an unordered lists, giving users a visual dimension to specific actions and modifications
-
-## Tutorial
-For detailed instruction's, view Solodev's [How to Create Sortable Lists with SortableJS](https://www.solodev.com/blog/web-design/how-to-create-sortable-lists-with-sortablejs.stml) article.
-
-## Demo
-Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/8g4x1nt9/).
-
-## HTML
-The tutorial contains the following basic HTML markup.
-
-```
-<div class="container">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- SortableJS CDN -->
+    <script src="https://raw.githack.com/SortableJS/Sortable/master/Sortable.js"></script>
+    <title>Creating Sortable Lists with SortableJS</title>
+  </head>
+  <body>
+    <div class="container">
       <div class="row">
         <div class="col-sm-9 col-xl-10 order-2 order-sm-1 mt-3">
           <h2 class="h6"><strong>Sortable List</strong></h2>
@@ -45,15 +46,5 @@ The tutorial contains the following basic HTML markup.
     ghostClass: 'blue-background-class'
 });
     </script>
-```
-
-## CSS
-All required CSS is contained with style.css
-
-## External Resources
-This tutorial includes the following third party resources.
-
-```
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://raw.githack.com/SortableJS/Sortable/master/Sortable.js"></script>
-```
+  </body>
+</html>
